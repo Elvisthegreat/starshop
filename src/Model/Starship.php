@@ -14,14 +14,14 @@ class Starship
 
     }
 
-    public function getClass(): string
-    {
-        return $this->class;
-    }
-
     public function getId(): int
     {
         return $this->id;
+    }
+
+    public function getClass(): string
+    {
+        return $this->class;
     }
 
     public function getCrew(): int
